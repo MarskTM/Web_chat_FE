@@ -1,0 +1,99 @@
+.font-head-style {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Declear background style*/
+.gradient {
+  background: linear-gradient(90deg, #4358d0 0%, #c950c2 100%);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 80%;
+  margin: 3% auto;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+.login-container img {
+  margin-left: 5%;
+  width: 50%;
+  height: auto;
+}
+
+.login-form {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  background-color: #fff;
+  color: rgb(65, 63, 63);
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 50px;
+  border-radius: 1.5rem;
+  padding: 0 1rem;
+  font-size: 16px;
+}
+
+.login-form button {
+  background-color: #4358d0;
+  color: #fff;
+  border: none;
+  width: 30%;
+  height: 55px;
+  border-radius: 1.5rem;
+  padding: 0 1rem;
+  font-size: 16px;
+  margin-top: 2.3rem;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #2091ba; 
+}
+
+@media screen and (max-width: 1200px) {
+  .login-form button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container img {
+    margin-top: 55px;
+    width: 350px;
+    height: auto;
+  }
+
+  .login-form h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+  }
+
+  .login-form input,
+  .login-form button {
+    width: 300px;
+  }
+}

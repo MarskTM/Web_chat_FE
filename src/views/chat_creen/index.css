@@ -1,0 +1,23 @@
+/* Declear background style*/
+.gradient {
+  background: linear-gradient(90deg, #5971f7 0%, #f359ee 100%);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.chat-container {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 3% auto;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+}
